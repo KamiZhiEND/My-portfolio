@@ -592,3 +592,29 @@ a {
     border-radius: 0.75rem;
     margin-bottom: 1.25rem;
 }
+
+.info-section {
+    margin-top: 2rem;
+    padding: 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 0.9rem;
+    background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
+}
+
+.info-section h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.hero-title,
+.page-title {
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.08);
+}
+
+.project-card,
+.contact-form,
+.contact-info-card,
+.about-image img,
+.info-section {
+    box-shadow: 0 10px 30px var(--shadow);
+}
