@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Wei Xu | Minimalist Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html">DW.X</a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="work.html">Work</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1 class="hero-title">David Wei Xu</h1>
+        <p class="hero-subtitle">Full Stack Developer</p>
+        <p class="hero-description">
+            I build digital experiences with a focus on minimalism,
+            motion, and meaningful interactions.
+        </p>
+        <div class="hero-cta">
+            <a href="work.html" class="btn-primary">View Work →</a>
+            <a href="contact.html" class="btn-secondary">Get in touch</a>
+        </div>
+    </header>
+
+    <!-- Featured Projects Section -->
+    <section class="featured-section">
+        <h2 class="section-title">Featured Work</h2>
+        <div class="projects-grid">
+            <article class="project-card">
+                <img src="img/javafx.png" alt="javafx" class="project-image">
+                <h3 class="project-title">Intermodular Project 1ºDAW</h3>
+                <p class="project-description">A Fitness app with social and competitive aspect made in JavaFX </p>
+                <div class="project-tags">
+                    <span>Java</span>
+                    <span>JavaFX</span>
+                    <span>MySQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+                <a href="https://github.com/rodrii-garciia/Fitmeteo" class="project-link">Take a look at the code →</a>
+            </article>
+
+            <article class="project-card">
+                <img src="img/llmm.png" alt="llmm" class="project-image">
+                <h3 class="project-title">League of Legends ChampDex</h3>
+                <p class="project-description">Simple web page to practice basic elements of HTML, CSS, XML and JS</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>XML</span>
+                    <span>Javascript</span>
+                </div>
+                <a href="https://github.com/KamiZhiEND/League-of-Legends-ChampDEX" class="project-link">Take a look at the code →</a>
+            </article>
+
+            <article class="project-card">
+                <img src="img/tienda.png" alt="tienda" class="project-image">
+                <h3 class="project-title">Advanced POO Shop</h3>
+                <p class="project-description">Simple terminal project about an online shop to practice POO</p>
+                <div class="project-tags">
+                    <span>Java</span>
+                    <span>CMD</span>
+                </div>
+                <a href="https://github.com/KamiZhiEND/Tienda-Online-POO-Avanzada-" class="project-link">Take a look at the code →</a>
+            </article>
+        </div>
+        <div class="view-all">
+            <a href="work.html" class="btn-outline">View all projects →</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-social">
+            <a href="https://github.com/KamiZhiEND" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/davidwx/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="footer-copyright">© 2026 David Wei Xu</p>
+    </footer>
+</div>
+</body>
+</html>

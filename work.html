@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work | David Wei Xu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html">DW.X.</a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="work.html" class="active">Work</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <!-- Work Header -->
+    <header class="page-header">
+        <h1 class="page-title">My Work Collection</h1>
+        <p class="page-description">A collection of projects I've designed and developed, still in developing or ideas.</p>
+    </header>
+
+    <!-- Filter Buttons -->
+    <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="completed">Completed</button>
+        <button class="filter-btn" data-filter="in-progress">Currently developing</button>
+        <button class="filter-btn" data-filter="to-do">Future projects</button>
+    </div>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid" id="projectsGrid">
+        <article class="project-card" data-category="completed">
+            <img src="img/javafx.png" alt="javafx" class="project-image">
+            <h3 class="project-title">Intermodular Project 1ºDAW</h3>
+            <p class="project-description">A Fitness app with social and competitive aspect made in JavaFX</p>
+            <div class="project-tags">
+                <span>Java</span>
+                <span>JavaFX</span>
+                <span>MySQL</span>
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+            <a href="https://github.com/rodrii-garciia/Fitmeteo" class="project-link">Take a look at the code →</a>
+        </article>
+
+        <article class="project-card" data-category="completed">
+            <img src="img/llmm.png" alt="llmm" class="project-image">
+            <h3 class="project-title">League of Legends ChampDex</h3>
+            <p class="project-description">Simple web page to practice basic elements of HTML, CSS, XML and JS</p>
+            <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>XML</span>
+                <span>Javascript</span>
+            </div>
+            <a href="https://github.com/KamiZhiEND/League-of-Legends-ChampDEX" class="project-link">Take a look at the code →</a>
+        </article>
+
+        <article class="project-card" data-category="completed">
+            <img src="img/tienda.png" alt="tienda" class="project-image">
+            <h3 class="project-title">Advanced POO Shop</h3>
+            <p class="project-description">Simple terminal project about an online shop to practice POO</p>
+            <div class="project-tags">
+                <span>Java</span>
+                <span>CMD</span>
+            </div>
+            <a href="https://github.com/KamiZhiEND/Tienda-Online-POO-Avanzada-" class="project-link">Take a look at the code →</a>
+        </article>
+
+        <article class="project-card" data-category="completed">
+            <img src="img/snake.png" alt="tienda" class="project-image">
+            <h3 class="project-title">Snake Game </h3>
+            <p class="project-description">A classic Snake arcade game built with vanilla HTML5, CSS, and JavaScript.</p>
+            <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+            </div>
+            <a href="https://github.com/KamiZhiEND/Snake-Game" class="project-link">Take a look at the code →</a>
+        </article>
+
+        <article class="project-card" data-category="in-progress">
+            <div class="project-image-placeholder">
+                <i class="fas fa-th"></i>
+            </div>
+            <h3 class="project-title">Monochrome Grid</h3>
+            <p class="project-description">Experimental layout system exploring Bento grid patterns.</p>
+            <div class="project-tags">
+                <span>CSS Grid</span>
+                <span>SCSS</span>
+                <span>Figma</span>
+            </div>
+            <a href="#" class="project-link">Take a look at the code →</a>
+        </article>
+
+        <article class="project-card" data-category="to-do">
+            <div class="project-image-placeholder">
+                <i class="fas fa-th"></i>
+            </div>
+            <h3 class="project-title">Productivity Web Application</h3>
+            <p class="project-description">Web focused on productivity, tracking you progress, to do list, etc.</p>
+            <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>MySQL</span>
+            </div>
+            <a href="#" class="project-link">Not started yet </a>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-social">
+            <a href="https://github.com/KamiZhiEND" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/davidwx/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="footer-copyright">© 2026 David Wei Xu</p>
+    </footer>
+</div>
+</body>
+</html>
